@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/code
     docker:
       # specify the version you desire here
-      - image: circleci/android:api-26
+      - image: circleci/android:api-26-alpha
 
     environment:
       JVM_OPTS: -Xmx3200m
